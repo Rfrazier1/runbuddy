@@ -17,9 +17,17 @@ header{
 header h1 {
     font-weight: bold;
     font-size: 36PX;
-    color: #fce138
-    margin: 0;
+    color: #fce138;
+    margin: 0;  
+
 }
+header nav ul li {
+    color: #fce138;
+    margin: 7px;
+    ;
+
+}
+
 header a { 
     color: #fce138;
 }
@@ -34,16 +42,16 @@ margin: 7px 0;
 header nav ul li {
     display: inline;
 }
-headernav ul li a{
+header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
-/*apply style to footer */
-footer h2 {
-    text-decoration: none;
-
+header nav {
+    float: right;
+    margin: 7px 0;
 }
-footer h2{ 
-    color: darkblue;
+header nav {
+    float: top;
+    margin: 300;
 }
