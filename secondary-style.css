@@ -1,0 +1,24 @@
+/* reach out styles start*/
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+.contact h2 {
+    color: #fce138;
+}
+.contact-h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+.contact-info p .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+font-style:none;}
+/* homepage hero*/
+.hero {
+    background-position: bottom;    
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}

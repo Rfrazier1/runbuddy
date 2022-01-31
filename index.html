@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-</head>
+<head>
 
 
 <meta charset="UTF-8">
@@ -18,77 +18,217 @@
     <nav>
       <ul>
         <li>
-          What We Do
+          <a href="#what-we-do"></a> What We Do
         </li>
         <li>
-          What You Do
+          <a href="#what-you-do"></a> What You Do
         </li>
         <li>
-          Your Trainers
+          <a href="#your-trainers"></a>Your Trainers
         </li>
         <li>
-          Reach Out
+          <a href="reach-out"></a> Reach Out
         </li>
       </ul>
     </nav>
   </header>
 
   <!--hero/jumbotron-->
-  <section>
+  <section class="hero">
+    <div class="hero-form">
+      <h3> Get Started Today!</h3>
+      <p>Fill out this form and one of our trainers will schdule a consult</p>
+      <!--add form elements-->
+      <form>
+        <label for="name">Enter full name here</label><br>
+        <input type="text" placeholder="your name" name="name" id="name" /><br>
+        <label for="email">Enter Email</label><br>
+        <input type="email" placeholder="email address" name="email" id="email" /><br>
+        <label for="phone number">Enter Phone Number:</label><br>
+        <input type="text" placeholder="phone number" name="phone" id="phone" /><br>
+        <p>
+          Have you worked out with a trainer before?<br>
+          <input type="radio" name="trainers-confirm" id="trainer-yess" />
+          <label for="trainer-yes">Yes</label>
+          <input type="radio" name="trainer-confirm" id="trainer-no" />
+          <label for="trainer-no">No</label>
+        </p>
+        <p>
+          I acknowledge that I am at least 18 years of age.
+          </label>
+          <input type="checkbox" name="age-confirm" id="checkbox" />
+        </p>
+        <button type="submit">
+          Get Running
+        </button>
+
+      </form>
+    </div>
+  </section>
+  <!--end hero jubotron-->
+  <section id="what-we-do" class="intro">
+
+
+
     <ul>
       <li>
         <!--"what we do" section-->
         <!-- anchor element-->
-        <a href="#what-we-do">
-          <h2>What We Do</h2>
+        <h2>What We Do</h2>
         </a>
+
+        <p> butcher selffies xhambray shabby chic gentrfiy ready made yr echo</p>
       </li>
     </ul>
+    </div>
   </section>
   <div>
-    <section>
+    <section id="what-you-do" class="steps">
       <ul>
 
         <!-- "what you do" section-->
+
         <li>
 
-          <a href="#what-you-do">
-            <h2>What You Do<h2>
-          </a>
-        </li>
-    </section>
-    <!--"meet your trainers" section-->
-    <section>
-      <ul>
-        <li>
-          <a href="#your-trainers">
-            <h2>Your Trainers</h2>
-          </a>
+
+          <h2>What You Do<h2>
+              </a>
+
+              <div>
+                <!-- insert this img element-->
+                <img src="file:///Users/sheeda/Downloads/01-04-svgs/step-1.svg" alt="" />
+              </div>
+
+              <div>
+                <h3><span>Step 1: Out the Form Above.</span> </h3>
+
+                <p>You're already here, so why not?</p>
+              </div>
+
         </li>
       </ul>
+
+      <ul>
+        <li>
+          <div>
+            <!-- insert this img element-->
+            <img src="file:///Users/sheeda/Downloads/01-04-svgs/step-2.svg" alt="" />
+
+            </a>
+            <h3><span> Step 2: Consult with one of our trainers.</span></h3>
+            <p> Are you here to build muscle, lose weight, or just feel good?</p>
+          </div>
+        </li>
+      </ul>
+      <div>
+        <img src="file:///Users/sheeda/Downloads/01-04-svgs/step-3.svg" alt="" />
+        </a>
+        <h3><span> Step 3: Get Running.</span></h3>
+        <p>Hit the ground running (literally) once your trainer lays out your plan. </p>
+
+      </div>
+      </li>
+      </ul>
+
+      <li>
+        <ul>
+          <div>
+            <!-- insert this element -->
+            <img src="file:///Users/sheeda/Downloads/01-04-svgs/step-4.svg" alt="" />
+
+            <h3><span>Step 4: Results.</span></h3>
+            <p> Bi-weekly chackind with your trainer will keepyou focused</p>
+
     </section>
+    <section id="your-trainers">
+
+      <div>
+
+        <!--"meet your trainers" section-->
+        <h2 class="section-title primary-border">
+          Meet The Trainers
+        </h2>
+        <article class="=trainer">
+          <img src="/Users/sheeda/Desktop/trainer-1.jpg" alt="arron Stephens" />
+          <div class="trainer-bio">
+<h3> Arron Stephens</h3>
+<h4>Speed / Strength</h4>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit quisquam explicabo est, doloribus officiis facere architecto asperiores ipsa ut corporis enim aut dolorum natus unde ea sit porro quasi.
+</p>
+ </div>
+        </article>
+    </section>
+    <!--second trainer bio-->
+    <article class="trainer">
+    <div class="trainer-bio text-right" >
+      <h3>Joanna Gill</h3>
+      <h4>Endurance</h4>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam impedit et pariatur dicta molestiae laborum quisquam, dignissimos, ducimus assumenda magni quod commodi, fugiat laudantium illo eum minima recusandae mollitia.</p>
+    </div>
+    <img src="/Users/sheeda/Desktop/trainer-2.jpg" alt="">
+    </div>
+    </article>
+    <!-- third trainer-->
+    <article class="trainer">
+      <div>
+      <img src="/Users/sheeda/Desktop/trainer-3.jpg">
+      <div 
+      class="trainer-bio text-left">
+    </div>
+      
+      </div>
+        <h3>Harry "the Headbabd" Smith</h3>
+        <h4> Strength</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi temporibus doloribus saepe. Tenetur quasi odit labore! Maxime repellendus similique eligendi at dolorem! Praesentium numquam perspiciatis veniam soluta libero unde?
+        </p>
+      </div>
+    </article>
     <!--"reach out" section-->
-    <section>
-      <ul>
-        <li>
-          <a href="reach-out">
-            <h2>Reach Out</h2</a>
-        </li>
-      </ul>
-    </section>
-    </ul>
-    </header>
+    <section id="reach out" class="contact">
+
+      
+    <h2 class="section-title seconday-border"> Reach Out</h2>
+  <div  class="contact info"></div>
+<iframe src="https://goo.gl/maps/KcLVMMegqZg5bmEw7"
+width="400"
+height="400"
+style="border: 0;"  
+allowfullscreen=""
+loading ="lazy">
+</iframe>
+
+  </div>
+  </li>
+  <div> 
+    <h3>Run Buddy</h3>
+  
+  <p> Any questions or concerns before signing up? <br>
+    Let us know and we'll be happy to talk to you!<br>
+  <address>
+    <p>55 Main Street <br>
+    Some Town, Ca <br>
+    1234<br>
+ 
+P: 55.RUN.BUDZ (555.786.2839)<BR>
+  E:<a href="mailto:info@runbuddy.io"> info@runbuddy.io</a>
+</p>
+</address>
+  </div>
+</ul>
+  </section>
+  </ul>
+  </header>
 </body>
 </div>
 <div>
   <!--footer -->
   <footer>
-    <h2>♥️ Made with love by Run Buddy.
-    </h2>
+    <h2>♥️ Made with love by Run Buddy.</h2>
 </div>
 <div>
   <a href="#">Read Our Privacy Policy</a><br />
-  &copy; 2022 Run buddy, Inc.
+  &copy; 2019 Run Buddy, Inc.
 </div>
 </footer>
 
