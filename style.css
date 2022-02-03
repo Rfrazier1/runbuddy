@@ -23,7 +23,7 @@ header h1 {
 
 }
  h2 {
-    color: #39a6b2;  
+    color: #fce138;  
 
 }
 
@@ -190,9 +190,9 @@ section {
     color: #024e76;
 }
 .primary-border {
-    border-color: #024e76;
+    border-color: #fce138;
 }
-.secondary-border {
+.secondary-border  {
     border-color: #39a6b2
 }
 .steps div {
@@ -309,5 +309,10 @@ text-align: right;
    color: #fce138;
 }
 .color {
-    color: white;
+    color: white
+}
+h3 {
+    color: #fce138;
+}a {
+    color: #fce138;
 }
