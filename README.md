@@ -10,3 +10,4 @@ https://lernantino.github.io/run-buddy/
 
 ## conrubution
 Made with ♥️ by Rasheeda
+### ©️2019 Run Buddy, Inc
